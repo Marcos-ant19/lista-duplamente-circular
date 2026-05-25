@@ -36,11 +36,11 @@ void inserir(Lista* l, float valor){
         l->inicio = novo;
         l->fim = novo;
     }else{
-        novo->prox = l->inicio;    //o novo nó aponta para antigo inicio
-        novo->ant = l->fim;      //o novo nó aponta para atrás do fim
-        l->fim->prox = novo;     //o nó aponta para fim matendo a lista circular
-        l->inicio->ant = novo;  //o novo no aponta para o inicio matendo a lista circular
-        l->inicio = novo;      //o novo vira o novo inicio
+        novo->prox = l->inicio;   
+        novo->ant = l->fim;     
+        l->fim->prox = novo;     
+        l->inicio->ant = novo;  
+        l->inicio = novo;      
     }
 
     l->qtd++;
