@@ -24,8 +24,8 @@ int main(){
 
     //printf("Elementos contidos na lista: %d\n", size(l));
     //clear(l);
-    ordenar(l);
-    mostrar(l);
+    //ordenar(l);
+    //mostrar(l);
 
 
     return 0;

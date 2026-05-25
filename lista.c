@@ -183,11 +183,13 @@ int size(Lista* l){
 
 
     No* aux = l->inicio;
+    int i = 0;
 
-    for(int i = 0;i < l->qtd;i++){
+    for(i = 0;i < l->qtd;i++){
         aux = aux->prox;
     }
 
+    return i;
 }
 
 void clear(Lista* l){
